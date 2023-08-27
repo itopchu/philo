@@ -75,7 +75,7 @@ void	*thread_philo(void *input);
 int		count_meal(t_phi *p, t_list *l);
 
 //print.c
-int		add_cond(long ms, t_phi *p, char s[20]);
+int		add_cond(long ms, t_phi *p, char *s);
 
 //printer.c
 void	*thread_printer(void *input);

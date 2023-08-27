@@ -27,7 +27,7 @@ static void	add_to_end(t_list **l, t_list *new)
 		*l = new;
 }
 
-int	add_cond(long ms, t_phi *p, char s[20])
+int	add_cond(long ms, t_phi *p, char *s)
 {
 	t_list	*new;
 	int		i;
