@@ -4,7 +4,7 @@ HEADER	= inc/philo.h
 CC		= gcc
 CFLAGS	= -Wall -Wextra -Werror -pthread -Iinc 
 COMPILE = $(CC) $(CFLAGS)
-RM		= rm -f
+RM		= rm -rf
 ####################################
 SRC 	=	src/init_table.c \
 			src/main.c \
